@@ -17,7 +17,6 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	} else {
 		fmt.Fprint(w, "Hello World!")
 	}
-
 }
 
 func Log(handler http.Handler) http.Handler {
