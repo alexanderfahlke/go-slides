@@ -6,7 +6,7 @@ What you need:
 - have the go present tool installed
   ```go get code.google.com/p/go.tools/cmd/present```
 
-- Write your .slide file in the format specified by http://godoc.org/code.google.com/p/go.talks/pkg/present
+- Write your .slide file in the format specified by http://godoc.org/code.google.com/p/go.tools/present
 -- ```cd``` into the directory where your slide is
 - run ```$GOPATH/bin/present```
 - open http://localhost:3999/
