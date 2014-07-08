@@ -12,11 +12,11 @@ alexander@fahlke.org
 _Der_ _Versuch_ _das_ _Beste_ _aus_ _interpretierten_ _und_ _dynamisch_ _typisierten_ _Sprachen_
 _mit_ _der_ _sicherheit_ _von_ _kompilierten_ _und_ _statisch_ _typisierten_ _Sprachen_ _zu_ _verbinden._
 
-- einfach zu lesen und zu schreiben
+- eine sehr junge Sprache (2009; erste stabile Version 2012)
+- einfach zu lesen und zu schreiben (ähnelt C-Syntax)
 - kompiliert
 - typsicher
 - schnell
-- viele Architekturen sind unterstützt (x86, amd64, ARM)
 
 .image images/gopherbw-200.png
 
@@ -74,6 +74,8 @@ Go Quellcodedateien müssen im Verzeichnis `$GOPATH/src/<projektname>` liegen
 
 
 
+
+
 * GOROOT und GOPATH
 
 *Umgebungsvariablen* *setzen*
@@ -86,6 +88,9 @@ Es muss mindestens das `GOROOT` und der `GOPATH` gesetzt werden
 Um Go direkt nutzen zu können sollte es im `PATH` liegen
 
  export PATH=$PATH:$GOROOT/bin
+
+
+
 
 
 
@@ -165,17 +170,23 @@ _Gocode_ _lässt_ _sich_ _testen_ _und_ _als_ _Skript_ _ausführen!_
 
 * Links
 
-Die Präsentation und der gesamte verwendete
-Code sind zum Download auf Github zu finden
+Das zu Hause von Go im Internet
 
-.link https://github.com/alexanderfahlke/go-slides/ alexanderfahlke/go-slides
+.link http://golang.org/ golang.org
 
 Eine Liste von Go Benutzern wird im Go-Wiki gepflegt
 
 .link http://code.google.com/p/go-wiki/wiki/GoUsers GoUsers
 
+Die Präsentation und der gesamte verwendete
+Code sind zum Download auf Github zu finden
+
+.link https://github.com/alexanderfahlke/go-slides/ alexanderfahlke/go-slides
 
 
 
 
-* Noch Fragen?
+
+
+
+* Fragen?
