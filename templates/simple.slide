@@ -1,0 +1,28 @@
+Title of your talk
+subtitle
+
+Place you give the talk
+Date of your talk
+
+Your name
+@twittername
+your@email.here
+
+* slide 1
+
+Some text on slide 1.
+
+* Demos!
+
+* "Hello World!"
+
+Some text for this demo
+
+.play helloworld.go
+
+* slide 4
+
+This slide contains some links!
+
+.link http://google.com/ google.com
+.link https://twitter.com/meinuelzen twitter.com > meinuelzen
