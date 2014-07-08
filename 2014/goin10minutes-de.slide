@@ -10,15 +10,125 @@ alexander@fahlke.org
 
 * Was ist Go?
 
+_Der_ _Versuch_ _das_ _Beste_ _aus_ _interpretierten_ _und_ _dynamisch_ _typisierten_ _Sprachen_
+_mit_ _der_ _sicherheit_ _von_ _kompilierten_ _und_ _statisch_ _typisierten_ _Sprachen_ _zu_ _verbinden._
+
+- einfach zu lesen und zu schreiben
+- kompiliert
+- typsicher
+- schnell
+- platformübergreifend
+
+.image images/gopherbw-200.png
+
+
+
+
+
+
+
 * Wer benutzt Go?
+
+- Google (hier hat alles angefangen)
+- GitHub
+- CloudFlare
+- Percona
+- bit.ly
+- ...
+- *GfK* *nurago* *GmbH?*
+
+
+
+
+
+
+
+
+
+* Wie kann ich mit Go loslegen?
+
+*Vorbereitungen*
+
+.link http://golang.org/dl/ Download einer aktuellen Version
+
+.link http://golang.org/doc/install Installation (Anleitungen)
+
+*Go-Arbeitsverzeichnisse*
+
+*Erstellen* *des* *GOPATH* *Verzeichnis*
+
+Go sucht alle Pakete und zusätzlichen Erweiterungen immer im `$GOPATH`
+
+ $ mkdir -p /Users/alex/go
+
+*Das* *Go* *Source* *Verzeichnis*
+
+Go Quellcodedateien müssen im Verzeichnis `$GOPATH/src/<projektname>` liegen
+
+ $ mkdir -p /Users/alex/go/src
+
+
+
+
+
+
+
+
+
+* GOROOT und GOPATH
+
+*Umgebungsvariablen* *setzen*
+
+Es muss mindestens das `GOROOT` und der `GOPATH` gesetzt werden
+
+ export GOROOT="/usr/local/go"
+ export GOPATH="/Users/alex/go"
+
+Um Go direkt nutzen zu können sollte es im `PATH` liegen
+
+ export PATH=$PATH:$GOROOT/bin
+
+
+
+
+
+
+
+* Testen ob Go funktioniert
+
+Wenn alles geklapt hat, sollte `go version` die aktuell
+installierte Version auf der Konsole anzeigen.
+
+ $ go version
+ go version go1.3 darwin/amd64
+
+
+
+
+
+
+
 
 * Demos!
 
+
+
+
+
+
+
+
 * "Hello World!" auf der Konsole
 
-some text on slide 1
-
 .play goin10minutes/empty.go
+
+
+
+
+
+
+
+
 
 * "Hello World!" im Browser
 
@@ -29,12 +139,26 @@ some text on slide 2
 .link http://localhost:8080/ localhost:8080
 .link http://localhost:8080/Alex localhost:8080/Alex
 
+
+
+
+
+
+
+
+
 * Was ist so cool an Go?
 
 - fmt tool vorstellen
 - go build vorstellen
 - go run vorstellen
 - go shebang vorstellen
+
+
+
+
+
+
 
 * Links
 
@@ -43,3 +167,6 @@ zum Download oder Klonen auf Github zu finden:
 
 .link https://github.com/alexanderfahlke/go-slides/ alexanderfahlke/go-slides
 
+Eine Liste von Go Benutzern wird im Go-Wiki gepflegt
+
+.link http://code.google.com/p/go-wiki/wiki/GoUsers GoUsers
