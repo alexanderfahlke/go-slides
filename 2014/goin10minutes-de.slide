@@ -35,3 +35,11 @@ some text on slide 2
 - go build vorstellen
 - go run vorstellen
 - go shebang vorstellen
+
+* Links
+
+Die Präsentation und der gesamte verwendete Code sind
+zum Download oder Klonen auf Github zu finden:
+
+.link https://github.com/alexanderfahlke/go-slides/ alexanderfahlke/go-slides
+
