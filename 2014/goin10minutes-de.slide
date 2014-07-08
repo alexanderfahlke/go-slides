@@ -1,7 +1,6 @@
 Go in 10 Minuten
 eine schnelle Einführung
 
-GfK nurago GmbH
 9. Juli 2014
 
 Alexander Fahlke
@@ -17,7 +16,7 @@ _mit_ _der_ _sicherheit_ _von_ _kompilierten_ _und_ _statisch_ _typisierten_ _Sp
 - kompiliert
 - typsicher
 - schnell
-- platformübergreifend
+- viele Architekturen sind unterstützt (x86, amd64, ARM)
 
 .image images/gopherbw-200.png
 
@@ -29,7 +28,7 @@ _mit_ _der_ _sicherheit_ _von_ _kompilierten_ _und_ _statisch_ _typisierten_ _Sp
 
 * Wer benutzt Go?
 
-- Google (hier hat alles angefangen)
+- Google
 - GitHub
 - CloudFlare
 - Percona
@@ -109,7 +108,7 @@ installierte Version auf der Konsole anzeigen.
 
 
 
-* Demos!
+* Demo!
 
 
 
@@ -132,12 +131,10 @@ installierte Version auf der Konsole anzeigen.
 
 * "Hello World!" im Browser
 
-some text on slide 2
-
 .play goin10minutes/helloworld.go
 
-.link http://localhost:8080/ localhost:8080
-.link http://localhost:8080/Alex localhost:8080/Alex
+.link http://localhost:8080/ http://localhost:8080/
+.link http://localhost:8080/Alex http://localhost:8080/Alex
 
 
 
@@ -149,10 +146,16 @@ some text on slide 2
 
 * Was ist so cool an Go?
 
-- fmt tool vorstellen
-- go build vorstellen
-- go run vorstellen
-- go shebang vorstellen
+_Go_ _ist_ _einfach,_ _schnell,_ _kompiliert_ _und_ _portabel!_
+
+- go fmt
+- go build
+- go run
+
+_Gocode_ _lässt_ _sich_ _testen_ _und_ _als_ _Skript_ _ausführen!_
+
+- go test
+- go shebang
 
 
 
@@ -162,11 +165,17 @@ some text on slide 2
 
 * Links
 
-Die Präsentation und der gesamte verwendete Code sind
-zum Download oder Klonen auf Github zu finden:
+Die Präsentation und der gesamte verwendete
+Code sind zum Download auf Github zu finden
 
 .link https://github.com/alexanderfahlke/go-slides/ alexanderfahlke/go-slides
 
 Eine Liste von Go Benutzern wird im Go-Wiki gepflegt
 
 .link http://code.google.com/p/go-wiki/wiki/GoUsers GoUsers
+
+
+
+
+
+* Noch Fragen?
