@@ -1,0 +1,37 @@
+Go in 10 Minuten
+eine schnelle Einführung
+
+GfK nurago GmbH
+9. Juli 2014
+
+Alexander Fahlke
+@meinuelzen
+alexander@fahlke.org
+
+* Was ist Go?
+
+* Wer benutzt Go?
+
+* Demos!
+
+* "Hello World!" auf der Konsole
+
+some text on slide 1
+
+.play goin10minutes/empty.go
+
+* "Hello World!" im Browser
+
+some text on slide 2
+
+.play goin10minutes/helloworld.go
+
+.link http://localhost:8080/ localhost:8080
+.link http://localhost:8080/Alex localhost:8080/Alex
+
+* Was ist so cool an Go?
+
+- fmt tool vorstellen
+- go build vorstellen
+- go run vorstellen
+- go shebang vorstellen
