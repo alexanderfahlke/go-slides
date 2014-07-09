@@ -16,7 +16,7 @@ _mit_ _der_ _sicherheit_ _von_ _kompilierten_ _und_ _statisch_ _typisierten_ _Sp
 - einfach zu lesen und zu schreiben (ähnelt C-Syntax)
 - kompiliert
 - typsicher
-- schnell
+- sehr schnell
 
 .image images/gopherbw-200.png
 
@@ -48,9 +48,9 @@ _mit_ _der_ _sicherheit_ _von_ _kompilierten_ _und_ _statisch_ _typisierten_ _Sp
 
 *Vorbereitungen*
 
-.link http://golang.org/dl/ Download einer aktuellen Version
+.link http://golang.org/dl/ Download einer aktuellen Go Version
 
-.link http://golang.org/doc/install Installation (Anleitungen)
+.link http://golang.org/doc/install Installationsanleitungen
 
 *Go-Arbeitsverzeichnisse*
 
@@ -80,16 +80,14 @@ Go Quellcodedateien müssen im Verzeichnis `$GOPATH/src/<projektname>` liegen
 
 *Umgebungsvariablen* *setzen*
 
-Es muss mindestens das `GOROOT` und der `GOPATH` gesetzt werden
+Es muss mindestens das `$GOROOT` und der `$GOPATH` gesetzt werden
 
- export GOROOT="/usr/local/go"
- export GOPATH="/Users/alex/go"
+ $ export GOROOT="/usr/local/go"
+ $ export GOPATH="/Users/alex/go"
 
-Um Go direkt nutzen zu können sollte es im `PATH` liegen
+Um Go direkt nutzen zu können sollte es im `$PATH` liegen
 
- export PATH=$PATH:$GOROOT/bin
-
-
+ $ export PATH=$PATH:$GOROOT/bin
 
 
 
@@ -98,9 +96,11 @@ Um Go direkt nutzen zu können sollte es im `PATH` liegen
 
 
 
-* Testen ob Go funktioniert
 
-Wenn alles geklapt hat, sollte `go version` die aktuell
+
+* Testen ob Go richtig funktioniert
+
+Wenn alles geklapt hat, sollte `$` `go` `version` die aktuell
 installierte Version auf der Konsole anzeigen.
 
  $ go version
@@ -151,13 +151,13 @@ installierte Version auf der Konsole anzeigen.
 
 * Was ist so cool an Go?
 
-_Go_ _ist_ _einfach,_ _schnell,_ _kompiliert_ _und_ _portabel!_
+_Go_ _ist_ _"sauber",_ _einfach,_ _schnell,_ _kompiliert_ _und_ _portabel!_
 
 - go fmt
 - go build
 - go run
 
-_Gocode_ _lässt_ _sich_ _testen_ _und_ _als_ _Skript_ _ausführen!_
+_Gocode_ _ist_ _einfach_ _zu_ _testen_ _und_ _lässt_ _sich_ _als_ _"Skript"_ _ausführen!_
 
 - go test
 - go shebang
