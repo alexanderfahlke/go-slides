@@ -1,0 +1,192 @@
+Go in 10 minutes
+a quick introduction
+
+9. July 2014
+
+Alexander Fahlke
+@meinuelzen
+alexander@fahlke.org
+
+* What is Go?
+
+_Der_ _Versuch_ _das_ _Beste_ _aus_ _interpretierten_ _und_ _dynamisch_ _typisierten_ _Sprachen_
+_mit_ _der_ _sicherheit_ _von_ _kompilierten_ _und_ _statisch_ _typisierten_ _Sprachen_ _zu_ _verbinden._
+
+- a very young language (2009; first stable release in 2012)
+- easy to read and write (similar to C syntax)
+- compiled
+- type safe
+- very fast
+
+.image images/gopherbw-200.png
+
+
+
+
+
+
+
+* Who uses Go?
+
+- Google
+- GitHub
+- CloudFlare
+- Percona
+- bit.ly
+- ...
+- *GfK* *nurago* *GmbH?*
+
+
+
+
+
+
+
+
+
+* How to start with Go?
+
+*Prerequisites*
+
+.link http://golang.org/dl/ Download a current version of Go
+
+.link http://golang.org/doc/install Installation guides
+
+*Go* *working* *directories*
+
+*Create* *the* *GOPATH* *directory*
+
+Go is looking for additional packages and extensions in your `$GOPATH`
+
+ $ mkdir -p /Users/alex/go
+
+*Create* *the* *Go* *source* *directory*
+
+Your go sources must be placed in `$GOPATH/src/<projectname>`
+
+ $ mkdir -p /Users/alex/go/src
+
+
+
+
+
+
+
+
+
+
+
+* GOROOT and GOPATH
+
+*Set* *environment* *variables*
+
+You must have at least the `$GOROOT` and the `$GOPATH` exported
+
+ $ export GOROOT="/usr/local/go"
+ $ export GOPATH="/Users/alex/go"
+
+To make it easy to use go, you should have it in your `$PATH`
+
+ $ export PATH=$PATH:$GOROOT/bin
+
+
+
+
+
+
+
+
+
+
+* Testing if Go is correctly set up
+
+If all steps were performed correctly the command `$` `go` `version`
+should show the currently installed version on the shell.
+
+ $ go version
+ go version go1.3 darwin/amd64
+
+
+
+
+
+
+
+
+* Demo!
+
+
+
+
+
+
+
+
+* "Hello World!" on the console
+
+.play goin10minutes/empty.go
+
+
+
+
+
+
+
+
+
+* "Hello World!" in the browser
+
+.play goin10minutes/helloworld.go
+
+.link http://localhost:8080/ http://localhost:8080/
+.link http://localhost:8080/Alex http://localhost:8080/Alex
+
+
+
+
+
+
+
+
+
+* Why is Go so cool?
+
+_Go_ _is_ _"clean",_ _easy,_ _fast,_ _compiled_ _und_ _portable!_
+
+- go fmt
+- go build
+- go run
+
+_Gocode_ _is_ _easy_ _to_ _test_ _and_ _it_ _is_ _even_ _possible_ _to_ _run_ _as_ _"script"!_
+
+- go test
+- go shebang
+
+
+
+
+
+
+
+* Links
+
+Go's home
+
+.link http://golang.org/ golang.org
+
+A list of Go users
+
+.link http://code.google.com/p/go-wiki/wiki/GoUsers GoUsers
+
+The slides and the code used here are available for
+download on GitHub for you
+
+.link https://github.com/alexanderfahlke/go-slides/ alexanderfahlke/go-slides
+
+
+
+
+
+
+
+* Questions?
